@@ -1,0 +1,65 @@
+<html>
+        <body><html>
+    <head>
+        <style>
+            #a{
+            color:yellow;text-align:center;
+            
+            }
+            body{
+            background-color:teal;
+            }
+            #b{
+            color:yellow;text-align:center;
+            }
+            #div{
+            background-color:orange;width:450px;height:325px;
+            }
+            #text{
+            
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1 id="a">Even or Odd?</h1>
+        <p id="b">This page will determine if a certain number will be even or odd.</p>
+        <br>
+        <div id="div">
+            <p style="text-align:center;">
+                Type a number:
+                <br>
+            <input type="text" id="one">
+            <br>
+            <br>
+            <button style="font-size:22px;background-color:khaki;color:blue;" onclick="evenorodd()">Click here for the result</button>
+            <br>
+            <br>
+            Is the number even or odd?
+            <br>
+            <input type="text" id="two";>
+
+
+        </div>
+        <script>
+            
+            function evenorodd(){
+            var a = document.getElementById("one").value;
+            if(a%2==0){
+            document.getElementById("two").value="This number is even."
+            }
+            else{
+            document.getElementById("two").value="This number is odd."
+            }
+            
+            }
+            
+            
+            
+        </script>
+    </body>
+</html></body>
+        <style></style>
+        <script></script>
+      </html>
